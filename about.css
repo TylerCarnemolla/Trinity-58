@@ -1,0 +1,96 @@
+.head{
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    background-color: #333 ;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.nav-title{
+    color:white;
+    font-size: xx-large;
+    margin:15px
+}
+.small-ad{
+    color:white
+}
+.nav-link{
+    color: white;
+    margin-top:15px;
+    margin-right: 20px ;
+    margin-left:20px;
+    text-decoration: underline;
+    
+}
+.nav-link:hover{
+    color:rgb(145, 24, 24)
+}
+button:hover{
+    background-color:rgb(145, 24, 24)
+}
+.title{
+    font-size: 6rem;
+    color: white;
+    text-shadow: 4px 5px 6px  black ; 
+}
+.title-pic{
+    display: flex;
+    justify-content: center;
+}
+body{
+    margin:0px;
+}
+.background{
+    z-index: -1;
+    position: fixed;
+    margin: 0px;
+    margin-top: -300px;
+}
+
+.section1{
+    width:100%
+}
+.sect1title{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: xx-large;
+    color:white
+}
+.section1-cont{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.712);
+    border-radius: 5px;
+    border: 2px solid red
+
+}
+img{
+    display: flex;
+    margin:50px;
+    border:2px solid red;
+    border-radius: 5px;
+    
+}
+.info{
+    display: flex;
+    padding:50px;
+    text-align: center;
+    font-size: larger;
+    color: white;
+}
+button {
+    background-color:red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin:50px;
+    height:50px;
+    width:100px;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
